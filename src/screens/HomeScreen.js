@@ -7,11 +7,11 @@ const HomeScreen = () => {
       <Text style={styles.text}>Getting started with React Native</Text>
       <Text style={styles.subText}>My name is {name}</Text>
       <Button
-        onPress={() => console.log('Button Pressed!')} 
+        onPress={() => console.log('Laura is BEAUTIFUL!!! <3')} 
         title="Go to Components Demo" 
       />
       <TouchableOpacity>
-        
+        <Text>Go to List Demo</Text>
       </TouchableOpacity>
     </View>
   );
