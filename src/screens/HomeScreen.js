@@ -8,7 +8,7 @@ const HomeScreen = props => {
       <Text style={styles.subText}>My name is {name}</Text>
       <Button
         onPress={() => props.navigation.navigate('Components')} 
-        title="Go to Components Demo" 
+        title="Go to Components Demo!" 
       />
       <TouchableOpacity
         onPress={() => console.log('Pressed')}
