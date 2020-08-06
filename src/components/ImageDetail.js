@@ -1,13 +1,17 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image } from 'react-native';
-import { AuthSession } from 'expo';
+import { ScrollView, Text, StyleSheet, Image } from 'react-native';
 
-const ImageDetail = props => {
+
+const ImageDetail = ({imageSource, title, imageScore}) => {
     return (
-        <View>
-            <Image source={props.imageSource}/>
-            <Text>{props.title}</Text>
-        </View>
+        <ScrollView>
+            <Image 
+                style={styles.imageStyle} 
+                source={imageSource}
+            />
+            <Text>{title}</Text>
+            <Text>Image Score - {imageScore}</Text>
+        </ScrollView>
     );
 };
 
