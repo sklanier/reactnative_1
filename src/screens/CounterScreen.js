@@ -5,11 +5,9 @@ const CounterScreen = () => {
     return (
         <View>
             <Text>
-
+            Current Count:
             </Text>
-            <Button>
-
-            </Button>
+            
         </View>
     );
 };
