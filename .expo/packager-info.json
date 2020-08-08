@@ -1,10 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 39192,
-  "expoServerNgrokUrl": "https://tz-a6j.sklanier.rn-starter.exp.direct",
-  "packagerNgrokUrl": "https://packager.tz-a6j.sklanier.rn-starter.exp.direct",
-  "ngrokPid": 39233,
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
   "webpackServerPort": null
 }
