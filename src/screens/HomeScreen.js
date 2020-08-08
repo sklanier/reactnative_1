@@ -7,6 +7,7 @@ const HomeScreen = ({ navigation }) => {
       <Text style={styles.text}>Steve's Native App</Text>
       <Text style={styles.subText}>let's do this</Text>
       <Button
+        //callback function: ONPRESS
         onPress={() => navigation.navigate('Components')} 
         title="Go to Components Demo!" 
       />
@@ -21,6 +22,10 @@ const HomeScreen = ({ navigation }) => {
       <Button
         onPress={() => navigation.navigate('Counter')} 
         title="Go to Counter Demo!" 
+      />
+      <Button
+        onPress={() => navigation.navigate('Color')} 
+        title="Go to Color Demo!" 
       />
       {/* <TouchableOpacity
         onPress={() => navigation.navigate('List')}
