@@ -1,17 +1,23 @@
 import React from 'react';
-import { ScrollView, Text, StyleSheet, Image } from 'react-native';
+import { View, Text, StyleSheet, Image } from 'react-native';
+import { FlatList } from 'react-native-gesture-handler';
 
 
 const ImageDetail = ({imageSource, title, imageScore}) => {
     return (
-        <ScrollView>
-            <Image 
-                style={styles.imageStyle} 
-                source={imageSource}
-            />
-            <Text>{title}</Text>
-            <Text>Image Score - {imageScore}</Text>
-        </ScrollView>
+        <FlatList
+            
+        >
+            <View>
+                <Image 
+                    style={styles.imageStyle} 
+                    source={imageSource}
+                />
+                <Text>{title}</Text>
+                <Text>Image Score - {imageScore}</Text>
+            </View>
+        </FlatList>
+
     );
 };
 
