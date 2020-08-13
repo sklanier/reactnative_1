@@ -7,9 +7,11 @@ const SquareScreen = ({ color, onIncrease, onDecrease }) => {
             <Text>{color}</Text>
             <Button
                 title={`Increase ${color}`}
+                onPress={() => onIncrease()}
             />
             <Button
                 title={`Decrease ${color}`}
+                onPress={() => onDecrease()}
             />
         </View>
     );
