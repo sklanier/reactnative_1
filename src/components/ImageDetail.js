@@ -5,9 +5,6 @@ import { FlatList } from 'react-native-gesture-handler';
 
 const ImageDetail = ({imageSource, title, imageScore}) => {
     return (
-        <FlatList
-            
-        >
             <View>
                 <Image 
                     style={styles.imageStyle} 
@@ -16,8 +13,6 @@ const ImageDetail = ({imageSource, title, imageScore}) => {
                 <Text>{title}</Text>
                 <Text>Image Score - {imageScore}</Text>
             </View>
-        </FlatList>
-
     );
 };
 
