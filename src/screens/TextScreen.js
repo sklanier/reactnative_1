@@ -1,12 +1,16 @@
 import React from 'react';
-import { View, StyleSheet, Text } from 'react-native';
+import { View, StyleSheet, Text, TextInput } from 'react-native';
 
 const TextScreen = () => {
-    return (
-        <View>
-        <Text>Text Screen</Text>
-        </View>
-    );
+  return (
+    <View>
+      <TextInput
+        style={styles.input}
+        autoCapitalize="none"
+        autoCorrect={false}
+      />
+    </View>
+  );
 };
 
 const styles = StyleSheet.create({});
